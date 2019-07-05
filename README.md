@@ -60,4 +60,5 @@ $ npm run start
 3. Quiz for symptoms. The results will determine what type of doctor the user needs.
 4. Display error messages
 5. Need to add way for user to choose what kind of search to do - by doctor name or by doctor type
-    * only show one way to search at a time
+    * only show one way to search at a time\
+6. Maybe add picture of doctor
