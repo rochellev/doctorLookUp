@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Doctor Search</title>
-  </head>
-  <body>
-    <div class="container">
-        <label for="firstName">Enter Doctor First Name:</label>
-        <input type="text" id="firstName">
-        <label for="lastName">Enter Doctor Last Name:</label>
-        <input type="text" id="lastName">
-        <button id="searchName" type="button">Find My Doctor!</button>
-    </div>
-    
 
-    <div class="container" id="output">
-      <div id="doctorResult"></div>
-      <div id="showErrors"></div>
-    </div>
-    
-  </body>
+<head>
+  <title>Doctor Search</title>
+</head>
+
+<body>
+  <div class="container">
+    <label for="firstName">Enter Doctor First Name:</label>
+    <input type="text" id="firstName">
+    <label for="lastName">Enter Doctor Last Name:</label>
+    <input type="text" id="lastName">
+    <button id="searchName" type="button">Find My Doctor!</button>
+  </div>
+  <div class="container">
+    <label for="doctorTypes">Select the type Doctor you are looking for:</label>
+    <select class="form-control" id="doctorTypes">
+      <option value="General Practitioner">General Practitioner</option>
+      <option value="Allergist/Immunologist">Allergist/Immunologist</option>
+      <option value="Dermatologist">Dermatologist</option>
+      <option value="Ophthalmologist">Ophthalmologist</option>
+      <option value="Psychiatrist">Psychiatrist</option>
+      <option value="Urologist">Urologist</option>
+    </select>
+    <button id="searchType">Search!</button>
+  </div>
+
+  <!-- Output section -->
+  <div class="container" id="output">
+    <div id="doctorResult"></div>
+    <div id="showErrors"></div>
+  </div>
+
+</body>
+
 </html>
