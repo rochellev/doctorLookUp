@@ -1,10 +1,10 @@
-# Project Template
+# Doctor Look Up
 ### By Rochelle Roberts
 
 ---
 
 ## Description
-* This project has the package.json and webpack.config.js ready to go
+* DoctorSearch
 
 
 ## Technologies Used
@@ -16,15 +16,17 @@
 * Webpack
 * Jasmine
 * Karma
-* API 
+* BetterDoctorAPI
 
 ## Installation
-* Clone repo, from the root directory, install dependencies.
+* Clone project repo
+* From the project's root directory, install dependencies.
 
 ```sh
-$ git clone 
-$ cd 
+$ git clone https://github.com/rochellev/doctorLookUp.git
+$ cd doctorLookUp
 $ npm install
+$ npm run start
 ```
 
 ## Specs
