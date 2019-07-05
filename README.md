@@ -8,9 +8,15 @@
 
 
 ## Technologies Used
-* JavaScript    * CSS           * Jasmine
-* JQuery        * Bootsrap      * Karma
-* HTML5         * Webpack       * BetterDoctorAPI
+* JavaScript
+* JQuery
+* HTML5      
+* CSS
+* Bootsrap      
+* Karma
+* Jasmine
+* Webpack       
+* BetterDoctorAPI
 
 ## Installation
 * Clone project repo
