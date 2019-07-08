@@ -63,3 +63,5 @@ $ npm run start
     * only show one way to search at a time
 5. Maybe add picture of doctor in results
 6. Improve website styling
+
+7. https://rochellev.github.io/doctorSearch
