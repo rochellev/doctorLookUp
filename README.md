@@ -57,8 +57,9 @@ $ npm run start
 ### Index
 1. Drop down for selecting City to find doctor. Seattle and Austin to start
 2. Input to search for a doctor by name
-3. Quiz for symptoms. The results will determine what type of doctor the user needs.
-4. Display error messages
-5. Need to add way for user to choose what kind of search to do - by doctor name or by doctor type
-    * only show one way to search at a time\
-6. Maybe add picture of doctor
+3. Display error messages
+***Stretch goals***
+4. Add way for user to choose what kind of search to do - by doctor name or by doctor type or symptom search
+    * only show one way to search at a time
+5. Maybe add picture of doctor in results
+6. Improve website styling
