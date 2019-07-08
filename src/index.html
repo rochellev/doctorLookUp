@@ -44,6 +44,65 @@
       </datalist>
       <button type="button" id="symptomSearch">Search!</button>
     </div>
+    <!-- Symptom Quiz section -->
+<div class="container">
+  <h1>Symptom Quiz</h1>
+  <h4>Answer the following questions to figure out what kind of doctor you should see</h4><br>
+  <label for="q1">1. What is your biggest hurt right now?</label>
+  <div class="radio">
+      <label>
+        <input type="radio" name="q1" value="dermatologist" checked>
+        My skin hurts
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="q1" value="general">
+        I have the sniffles, fever, chills, and my whole body hurts.
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="q1" value="mental">
+        I want mental health support.
+      </label>
+    </div>
+    <div class="radio">
+        <label>
+          <input type="radio" name="q1" value="general" checked>
+          Something else...
+        </label>
+      </div>
+    <label for="q2">2. Do you have a gender preference for your Doctor?</label>
+    <div class="radio">
+        <label>
+          <input type="radio" name="q2" value="male" checked>
+          Male
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="q2" value="female">
+          Female
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="q2" value="none">
+          No preference.
+        </label>
+      </div>
+      <div class="form-group">
+          <label for="q3">What are your Symptoms?</label><br>
+          <input type="checkbox" name="q3" value="general">I can't sleep<br>
+          <input type="checkbox" name="q3" value="dermatologist">My skin burning rash<br>
+          <input type="checkbox" name="q3" value="eye">My head hurts after reading<br>
+          <input type="checkbox" name="q3" value="gynecologist">My female reproductive parts hurt<br>
+          <input type="checkbox" name="q3" value="general">I have aches and pains<br>
+        </div>
+
+
+</div>
   <!-- Output section -->
   <div class="container" id="output">
     <div id="doctorResult"></div>
